@@ -5,18 +5,28 @@ body {
 
 h1 {
     font-size: 70px;
+    border-left: 5px solid tomato;
+    border-radius: 5px;
+    border-image-slice: 1;
+    padding-left: 20px;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 75px;
+    font-weight: bolder;
+}
 
+h3 {
+    font-size: 40px;
 }
 
 p {
     font-size: 30px;
 }
 
-#orange {
+.orange {
     color: orange;
 }
 
@@ -33,6 +43,8 @@ p {
 
 .flexible {
     display: flex;
+    margin-bottom: 10%;
+    align-items: center;
 }
 
 .button {
@@ -44,13 +56,46 @@ p {
     font-weight: 700;
 }
 
-.boxes {
-    width: 22%;
+.box-one {
+    width: 400px;
+    height: 500px;
     margin-left: 5%;
-    margin-right: 4%;
-    padding: 10px;
+    margin-right: 5%;
+    padding: 25px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+
 }
 
-.boxes img {
+.box-two {
+    width: 400px;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    background-color: bisque;
+    border-radius: 20px;
+
+}
+
+.box-three {
+    width: 400px;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    background-color: thistle;
+    border-radius: 20px;
+}
+
+.box-one img {
+    width: 50%;
+}
+
+.box-two img {
+    width: 50%;
+}
+
+.box-three img {
     width: 50%;
 }
