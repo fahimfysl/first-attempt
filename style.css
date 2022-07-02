@@ -4,11 +4,16 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #orange {
@@ -16,7 +21,9 @@ p {
 }
 
 .equal-half {
-    height: 400px;
+    height: 350px;
+    width: 50%;
+    padding: 10%;
 
 }
 
@@ -24,7 +31,26 @@ p {
     width: 80%;
 }
 
-.per-section {
-    height: 500px;
+.flexible {
     display: flex;
+}
+
+.button {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.boxes {
+    width: 22%;
+    margin-left: 5%;
+    margin-right: 4%;
+    padding: 10px;
+}
+
+.boxes img {
+    width: 50%;
 }
